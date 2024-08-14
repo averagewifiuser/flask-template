@@ -4,6 +4,7 @@ import os
 class BaseConfig(object):
     basedir = os.path.abspath(os.path.dirname(__file__))
     DEBUG = False
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///site.db'
 
 
 class DevelopmentConfig(BaseConfig):
