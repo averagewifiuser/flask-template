@@ -5,7 +5,7 @@
 ## Setup
 Clone this project.
 
-Run `pip install -r requiremnts.txt`
+Run `pip install -r requirements.txt`
 
 
 ## Usage
