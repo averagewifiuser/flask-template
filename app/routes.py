@@ -1,9 +1,10 @@
-from flask import Blueprint
+from apiflask import APIBlueprint
+from flask import jsonify
 
 
-main = Blueprint('main', __name__)
+main = APIBlueprint('main', __name__)
 
 #routes
-@main.route("/", methods=['GET'])
+@main.get("/")
 def lhome():
-    return 'Hello World!'
+    return jsonify({'message': 'Hello from the other...'})

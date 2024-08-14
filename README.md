@@ -26,3 +26,5 @@ To run the tests, run this in the console
 
 ## Conclusion
 You can continue with your development after it runs successfully.
+
+Visit '/docs' endpoint for api documentation
